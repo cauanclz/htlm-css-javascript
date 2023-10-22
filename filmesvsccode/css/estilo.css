@@ -1,0 +1,50 @@
+body{
+background: rgb(79, 153, 248); 
+justify-content: center;
+align-items: center;
+display: flex;
+height: 100vh;
+}
+.caixa{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+width: 700px;
+border-radius: 2px;
+background: white;
+height:450px ;
+}
+.caixa img{
+width: 300px ;
+justify-content:center ;
+align-items: center;
+display: flex;
+}
+.central p{
+justify-content: center;
+align-items: center;
+display: flex;
+font-size: 12px;
+padding: 2px;
+flex-direction: column;
+
+
+}
+.central button{
+align-items: center;
+display: flex;
+cursor: pointer;
+padding: 2px;
+border-radius: 5px;
+border: none;
+background: rgb(79, 153, 248);
+}
+
+.central{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
